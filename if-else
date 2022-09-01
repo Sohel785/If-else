@@ -1,0 +1,12 @@
+<?php
+$office="10";
+if ($office>8) {
+    echo "Successful Your Entry";
+} 
+elseif ($office<11) {
+    echo "Time Over";
+}
+else {
+    echo "Nothing Found";
+}
+?>
